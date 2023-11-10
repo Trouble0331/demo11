@@ -1,0 +1,19 @@
+1.github 注册
+2.git 安装
+
+3.jmeter 调试 halo 接口（登录、查询 所有文章） 
+
+
+login: post
+ http://62.234.59.35:8090/api/admin/login
+
+bodydata: {"username": "admin", "password": "admin&2023", "authcode": null}
+
+查看所有文章：get
+
+http://62.234.59.35/api/admin/posts?page=0&size=10&statuses=PUBLISHED&statuses=DRAFT&statuses=INTIMATE
+
+
+4.Excel 测试结果回写
+
+5.jenkins  持续集成（接口自动化）
