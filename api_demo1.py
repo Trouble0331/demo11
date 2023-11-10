@@ -27,9 +27,9 @@ import unittest
 
 from http_qingqiu import HttpRequest
 
-from ddt import ddt, data
+#from ddt import ddt, data
 
-from do_excel import DoExcel
+#from do_excel import DoExcel
 
 #
 # class TestHttpRequest(unittest.TestCase):
